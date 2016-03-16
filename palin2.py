@@ -1,3 +1,4 @@
+#spoj solutions
 def inc(left):
     leftlist=list(left) 
     last = len(left)-1 

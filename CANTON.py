@@ -1,3 +1,4 @@
+#spoj solutions
 def canton(number):
 	if(number == 1):
 		print "TERM 1 IS 1/1"

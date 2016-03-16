@@ -1,4 +1,4 @@
-
+#spoj solutions
 known_center = {(0,0):0}
 known_intercept = {(2,0):2}
 

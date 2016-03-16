@@ -1,4 +1,4 @@
-
+#spoj solutions
 
 t = int(raw_input())
 

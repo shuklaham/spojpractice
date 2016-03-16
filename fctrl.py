@@ -1,3 +1,4 @@
+#spoj solutions
 T = raw_input()
 total_input = int(T)
 for i in xrange(total_input):

@@ -1,4 +1,4 @@
-
+#spoj solutions
 t = int(raw_input())
 while t >=1:
     space = raw_input()

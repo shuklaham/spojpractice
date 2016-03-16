@@ -1,4 +1,4 @@
-
+#spoj solutions
 numofcols = int(raw_input())
 sent = raw_input()
 

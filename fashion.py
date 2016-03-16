@@ -1,4 +1,4 @@
-
+#spoj solutions
 t = int(raw_input())
 for i in range(t):
     N = int(raw_input())

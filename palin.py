@@ -1,3 +1,4 @@
+#spoj solutions
 '''def next_palin(num):
 	st = str(num)
 	if st[0:(len(st)/2):1] == st[-1:-(len(st)/2+1):-1]:

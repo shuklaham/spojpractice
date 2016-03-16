@@ -1,3 +1,4 @@
+#spoj solutions
 import math
 
 noofcases = int(raw_input())

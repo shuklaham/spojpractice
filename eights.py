@@ -1,4 +1,4 @@
-
+#spoj solutions
 a = 192
 t = int(raw_input())
 d = 250

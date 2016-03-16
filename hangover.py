@@ -1,4 +1,4 @@
-
+#spoj solutions
 cache = {1:0.5}
 
 def card_length(n):
