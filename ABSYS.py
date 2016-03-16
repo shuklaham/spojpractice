@@ -1,3 +1,4 @@
+#spoj solutions
 def gimme_string(expr):	
 	operand1,operand2 = expr.split(' + ')
 	operand2,operand3 = operand2.split(' = ')

@@ -1,4 +1,4 @@
-
+#spoj solutions
 import math
 
 n = int(raw_input())

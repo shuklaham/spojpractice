@@ -1,4 +1,4 @@
-
+#spoj solutions
 #import math
 
 '''

@@ -1,4 +1,4 @@
-
+#spoj solutions
 def is_ap_or_gp(t):
     if (2*t[1]) == (t[0] + t[2]):
         return 'AP'
