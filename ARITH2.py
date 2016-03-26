@@ -2,7 +2,7 @@
 
 for _ in xrange(int(raw_input())):
     raw_input()
-    expr = raw_input().split(' ')
+    expr = raw_input().split('')
     ans = 0
     opr = '+'
     for p in expr:
