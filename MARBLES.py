@@ -1,23 +1,19 @@
 
-known = {1:1}
-def fact(n):
-    global known
-    if n in known:
-        return known[n]
-    else:
-        t = n * fact(n-1)
-        known[n] = t
-        return t
+from math import factorial
 
-def C(n,k):
-    num = 1
-    for i in range(n,n-k,-1):
-        num = num* i
-    den = fact(k)
-    return num/den
+
+def C(n,r):
+    if r > (n // 2):
+        r = n - r
+    k = n
+    ans = 1
+    while k != (n - r):
+        ans *= k
+        k -= 1
+    return ans // factorial(r)
 
 tc = int(raw_input())
 for i in range(tc):
-    balls,colors = raw_input().split(' ')
+    balls,colors = raw_input().split()
     ans = C(int(balls)-1,int(colors)-1)
     print ans
